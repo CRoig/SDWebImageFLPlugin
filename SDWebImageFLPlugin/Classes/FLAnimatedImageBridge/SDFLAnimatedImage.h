@@ -6,8 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import <FLAnimatedImage/FLAnimatedImage.h>
-#import <SDWebImage/SDWebImage.h>
+@import FLAnimatedImage;
+@import SDWebImage;
 
 /**
  * Optimal frame cache size of FLAnimatedImage during initializer. (1.0.11 version later)

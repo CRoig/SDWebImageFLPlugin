@@ -10,7 +10,16 @@ let package = Package(
             name: "SDWebImageFLPlugin",
             targets: ["SDWebImageFLPlugin"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
+        .package(url: "https://github.com/YetAnotherRzmn/FLAnimatedImage.git", from: "1.0.14")
+    ],
     targets: [
-        .target(name: "SDWebImageFLPlugin", dependencies: [], path: "."),
+        .target(name: "SDWebImageFLPlugin",
+                dependencies: ["SDWebImage","FLAnimatedImage"],
+                path: "SDWebImageFLPlugin",
+                exclude: ["Assets", "Module"],
+                sources: ["Classes"],
+                publicHeadersPath: "Classes/FLAnimatedImageBridge")
     ]
 )

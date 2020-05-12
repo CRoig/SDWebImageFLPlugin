@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FLAnimatedImage",
+        "repositoryURL": "https://github.com/YetAnotherRzmn/FLAnimatedImage.git",
+        "state": {
+          "branch": null,
+          "revision": "735182f4446f69a680e48ca6e41781dbb12db274",
+          "version": "1.0.16"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "5818cf70fde7e9e07e24196d0d54350bc8526f26",
+          "version": "5.8.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
