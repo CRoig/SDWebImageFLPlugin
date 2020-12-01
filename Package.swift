@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.10.0"),
-        .package(url: "https://github.com/YetAnotherRzmn/FLAnimatedImage.git", from: "1.0.14")
+        .package(url: "https://github.com/CRoig/FLAnimatedImage.git", .branch("master"))
     ],
     targets: [
         .target(name: "SDWebImageFLPlugin",
